@@ -31,8 +31,8 @@
 import sys
 import struct
 import numpy as np
-import nimrod_data_defs as ndd
-import nimrod_funcs as nfc
+from . import nimrod_data_defs as ndd
+from . import nimrod_funcs as nfc
 
 
 def read_nimrod_data(input_file):

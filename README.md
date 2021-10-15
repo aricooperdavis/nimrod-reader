@@ -6,3 +6,8 @@ This should be able to read all three types of composite scene (UK @ 1km, UK @ 5
 If you are a CEDA user then you can find NIMROD data data in: /badc/ukmo-nimrod/
 
 Requires: Numpy, gdal
+
+## Updates
+This is a fork of the original NIMROD_Reader project that just wraps it up so that it can be installed as a module using PyPi. I don't know how useful this is to most people, but it is useful to me.
+
+Note that, because GDAL relies on MSVC C++ binaries, PyPi can't install all your dependencies.
